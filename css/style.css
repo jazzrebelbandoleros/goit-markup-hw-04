@@ -94,10 +94,6 @@ img {
   color: #2e2f42;
 }
 
-.menu-item {
-  position: relative;
-}
-
 .menu-link {
   font-size: 16px;
   font-weight: 500;
@@ -108,8 +104,8 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -151,11 +147,12 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpeg);
+    url(../images/office.jpg);
   max-width: 1440px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .main-title {
   font-size: 56px;
@@ -256,7 +253,7 @@ img {
   gap: 24px;
 }
 
-.instagram {
+.icons-team {
   width: 40px;
   height: 40px;
 }
@@ -388,9 +385,12 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover .parag {
-  box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08),
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-list-item:hover .parag {
   transform: translateY(0);
 }
 
