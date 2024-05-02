@@ -106,6 +106,7 @@ img {
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  color: #404bbf;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -258,7 +259,7 @@ img {
   height: 40px;
 }
 
-.link-insta {
+.icons-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -268,49 +269,8 @@ img {
   justify-content: center;
 }
 
-.link-insta:hover {
-  background-color: #404bbf;
-}
-
-.link-twit {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link-twit:hover {
-  background-color: #404bbf;
-}
-
-.link-face {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link-face:hover {
-  background-color: #404bbf;
-}
-
-.link-link {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link-link:hover {
+.icons-link:hover,
+.icons-link:focus {
   background-color: #404bbf;
 }
 
@@ -502,7 +462,7 @@ img {
   gap: 16px;
 }
 
-.instagram-footer {
+.icons-link-footer {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -513,75 +473,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.instagram-footer:hover,
-.instagram-footer:focus {
+.icons-link-footer:hover,
+.icons-link-footer:focus {
   background-color: #31d0aa;
   background-color: #31d0aa;
 }
 
-.icon-instagram {
-  fill: #f4f4fd;
-}
-
-.twitter-footer {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.twitter-footer:hover,
-.twitter-footer:focus {
-  background-color: #31d0aa;
-  background-color: #31d0aa;
-}
-
-.icon-twitter {
-  fill: #f4f4fd;
-}
-
-.facebook-footer {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.facebook-footer:hover,
-.facebook-footer:focus {
-  background-color: #31d0aa;
-  background-color: #31d0aa;
-}
-
-.icon-facebook {
-  fill: #f4f4fd;
-}
-
-.linkedin-footer {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.linkedin-footer:hover,
-.linkedin-footer:focus {
-  background-color: #31d0aa;
-  background-color: #31d0aa;
-}
-
-.icon-linkedin {
+.svg {
   fill: #f4f4fd;
 }
